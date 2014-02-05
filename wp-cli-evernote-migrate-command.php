@@ -24,7 +24,7 @@ class WP_CLI_Evernote_Migrate_Command extends WP_CLI_Command {
 
 		foreach( $contents->children() as $note ) {
 
-			$post_title = stripslashes( $note->title->__toString() );
+			$post_title = $note->title->__toString();
 			$content_obj = simplexml_load_string( $note->content->__toString() );
 			$post_content = $content_obj->__toString();
 			$post = array(
