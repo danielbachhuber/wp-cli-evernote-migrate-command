@@ -1,0 +1,22 @@
+{
+    "name": "danielbachhuber/wp-cli-evernote-migrate-command",
+    "type": "command",
+    "description": "Migrate data from and to Evernote.",
+    "keywords": ["wp-cli","evernote","migrations"],
+    "homepage": "https://github.com/danielbachhuber/wp-cli-evernote-migrate-command",
+    "license": "MIT",
+    "authors": [
+            {
+                    "name": "Daniel Bachhuber",
+                    "email": "d@danielbachhuber.com",
+                    "homepage": "http://danielbachhuber.com",
+                    "role": "Developer"
+            }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "files": [ "wp-cli-evernote-migrate-command.php" ]
+    }
+}
